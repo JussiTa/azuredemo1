@@ -16,6 +16,4 @@ steps:
     PathtoPublish: '$(predefined Azure DevOps)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
-   
+  

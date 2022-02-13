@@ -11,8 +11,11 @@ pool:
 
 steps:
 - task: PublishBuildArtifacts@1
+ 
   inputs:
-    PathtoPublish: 'predefined Azure DevOps'
+    PathtoPublish: '$(predefined Azure DevOps)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
     ArtifactName: 'drop'
     publishLocation: 'Container'
    
